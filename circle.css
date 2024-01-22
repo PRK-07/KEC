@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    color: #000;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #0ab1f3;
+    padding: 10px 15px;
+    border: 2.5px solid #0ab1f3;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #ebf5ec;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+}
+.eclipse>h1,p{
+    text-align: center;
+}
+.eclipse>div{
+    align-items: center;
+    justify-content: center;
+}
+.Love{
+    /* Add this to your existing CSS file or create a new one */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Adjust this if needed to control the vertical centering */
+}
+
+.GetStarted-btn {
+    background-color: #0ab1f3;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.eclipse>img{
+    width: 100%;
+    height: 400px;
+}
+.eclipse{
+    background-color: powderblue
+}
